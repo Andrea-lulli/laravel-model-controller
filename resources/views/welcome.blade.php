@@ -9,7 +9,7 @@
             <div class="card col-3  m-3 p-2">
                 <h4>{{ $elem->title }}</h4>
                 <p>{{ $elem->nationality }}</p>
-                <p>{{ $elem->date }}</p>
+                <p>{{ $elem['date']}}</p>
                 <p>{{ $elem->vote }}</p>
             </div>
         @endforeach
